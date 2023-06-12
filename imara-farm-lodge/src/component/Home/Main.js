@@ -207,7 +207,7 @@ const Main = () => {
             <section id="home" className="slider-area fix p-relative">
                 <Slider className="slider-active" {...home}>
                     <div className="col-xl-2">
-                        <div className="single-slider slider-bg d-flex align-items-center" style={{backgroundImage: `url(${BGImg})`}}>
+                        <div className="single-slider slider-bg d-flex align-items-center" style={{backgroundImage: `url(${room-img02.png})`}}>
                             <div className="container">
                                 <div className="row justify-content-center align-items-center">
                                     <div className="col-lg-7 col-md-7">
