@@ -315,7 +315,7 @@ const Main = () => {
                     </form>
                 </div>
             </div>
-            <section className="about-area about-p pt-120 pb-120 p-relative fix">
+            {/* <section className="about-area about-p pt-120 pb-120 p-relative fix">
                 <div className="animations-02"><img src={About} alt="contact-bg-an-02"/></div>
                 <div className="container">
                     <div className="row justify-content-center align-items-center">
@@ -360,8 +360,8 @@ const Main = () => {
                         </div>
                     </div>
                 </div>
-            </section>
-            <section id="service-details2" className="pt-120 pb-90 p-relative" style={{background: "#f7f5f1"}}>
+            </section> */}
+            {/* <section id="service-details2" className="pt-120 pb-90 p-relative" style={{background: "#f7f5f1"}}>
                 <div className="animations-01"><img src={Hotel} alt="an-img-01"/></div>
                 <div className="container">
                     <div className="row align-items-center">
@@ -466,7 +466,7 @@ const Main = () => {
                             </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
             <section id="services" className="services-area pt-113 pb-150">
                 <div className="container">
                     <div className="row justify-content-center">
@@ -878,7 +878,7 @@ const Main = () => {
                     </div>
                 </div>
             </section>
-            <section id="blog" className="blog-area p-relative fix pt-90 pb-90">
+            {/* <section id="blog" className="blog-area p-relative fix pt-90 pb-90">
                 <div className="animations-02"><img src={Blog} alt="contact-bg-an-05"/></div>
                 <div className="container">
                     <div className="row align-items-center"> 
@@ -941,7 +941,7 @@ const Main = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
             <div className="brand-area pt-60 pb-60"  style={{background :"#f7f5f1"}}>
                 <div className="container">
                     <Slider className="row brand-active" {...brand}>

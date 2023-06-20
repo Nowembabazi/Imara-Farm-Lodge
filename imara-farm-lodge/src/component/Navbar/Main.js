@@ -80,13 +80,13 @@ const Main = () => {
                                                         {/* <li> <Link to="/room-details">Rooms Details</Link></li> */}
                                                     </ul>
                                                 </li>
-                                                <li className="has-sub">
+                                                {/* <li className="has-sub">
                                                     <Link to="/service">Facilities</Link>
                                                     <ul>
-                                                        <li> <Link to="/service">Services</Link></li>
+                                                        <li> <Link to="/service">Services</Link></li> */}
                                                         {/* <li> <Link to="/service-details">Services Details</Link></li> */}
-                                                    </ul>
-                                                </li>
+                                                    {/* </ul>
+                                                </li> */}
                                                 <li className="has-sub"><Link to="#">Pages</Link>
                                                     <ul>
                                                         <li><Link to="/gallery">Gallery</Link></li>
