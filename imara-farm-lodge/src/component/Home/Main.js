@@ -543,7 +543,7 @@ const Main = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-4 col-md-6">
+                        {/* <div className="col-xl-4 col-md-6">
                             <div className="single-services mb-30">
                                 <div className="services-thumb">
 									<Link to="#" className="gallery-link popup-image" onClick={() => { 
@@ -574,7 +574,7 @@ const Main = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="col-xl-4 col-md-6">
                             <div className="single-services mb-30">
                                 <div className="services-thumb">
@@ -699,7 +699,7 @@ const Main = () => {
                     </div>
                 </div>
             </section>
-            <section className="testimonial-area pt-120 pb-90 p-relative fix" style={{backgroundImage: `url(${BGTest})`, background_size: "cover"}} >
+            <section className="testimonial-area pt-120 pb-90 p-relative fix">
                 <div className="container">
                     <div className="row">
                          <div className="col-lg-12">
