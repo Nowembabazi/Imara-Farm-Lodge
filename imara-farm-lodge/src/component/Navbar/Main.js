@@ -28,11 +28,11 @@ const Main = () => {
                                     <ul>
                                         <li>
                                             <i className="far fa-clock"></i>
-                                            <span>Mon - Fri: 9:00 - 19:00/ Closed on Weekends</span>
+                                            <span>Mon - Sun: 9:00 - 00:00/ Always OPEN.</span>
                                         </li>
                                         <li>
                                             <i className="far fa-mobile"></i>
-                                            <strong>+91 705 210-1786</strong>
+                                            <strong>+256.........</strong>
                                         </li>
                                     </ul>
                                 </div>
@@ -56,6 +56,7 @@ const Main = () => {
                             <div className="row align-items-center">
                                 <div className="col-xl-2 col-lg-2">
                                     <div className="logo">
+                                        <p>IMARA FARM LODGE.</p>
                                         <Link to="/"><img src="assets/img/logo/logo.png" alt="logo" /></Link>
                                     </div>
                                 </div>
@@ -67,9 +68,9 @@ const Main = () => {
                                                     <Link to="/">Home</Link>
                                                     <ul>
                                                         <li><Link to="/">Home Page 01</Link></li>
-                                                        <li><Link to="/home-02">Home Page 02</Link></li>
+                                                        {/* <li><Link to="/home-02">Home Page 02</Link></li>
                                                         <li><Link to="/home-03">Home Page Side Menu</Link></li>
-                                                        <li><Link to="/home-04">Home Page Full Menu</Link></li>
+                                                        <li><Link to="/home-04">Home Page Full Menu</Link></li> */}
                                                     </ul>
                                                 </li>
                                                 <li><Link to="/about">About</Link></li>
@@ -77,34 +78,34 @@ const Main = () => {
                                                     <Link to="/room">our rooms</Link>
                                                     <ul>
                                                         <li> <Link to="/room">Our Rooms</Link></li>
-                                                        <li> <Link to="/room-details">Rooms Details</Link></li>
+                                                        {/* <li> <Link to="/room-details">Rooms Details</Link></li> */}
                                                     </ul>
                                                 </li>
-                                                <li className="has-sub">
+                                                {/* <li className="has-sub">
                                                     <Link to="/service">Facilities</Link>
                                                     <ul>
-                                                        <li> <Link to="/service">Services</Link></li>
-                                                        <li> <Link to="/service-details">Services Details</Link></li>
-                                                    </ul>
-                                                </li>
+                                                        <li> <Link to="/service">Services</Link></li> */}
+                                                        {/* <li> <Link to="/service-details">Services Details</Link></li> */}
+                                                    {/* </ul>
+                                                </li> */}
                                                 <li className="has-sub"><Link to="#">Pages</Link>
                                                     <ul>
                                                         <li><Link to="/gallery">Gallery</Link></li>
-                                                        <li><Link to="/faq">Faq</Link></li>
+                                                        {/* <li><Link to="/faq">Faq</Link></li>
                                                         <li><Link to="/team">Team</Link></li>
                                                         <li><Link to="/team-details">Team Details</Link></li>
                                                         <li><Link to="/pricing">Pricing</Link></li>
                                                         <li><Link to="/shop">Shop</Link></li>
-                                                        <li><Link to="/shop-details">Shop Details</Link></li>
+                                                        <li><Link to="/shop-details">Shop Details</Link></li> */}
                                                     </ul>
                                                 </li>
-                                                <li className="has-sub">
+                                                {/* <li className="has-sub">
                                                     <Link to="/blog">Blog</Link>
                                                     <ul>
                                                         <li><Link to="/blog">Blog</Link></li>
                                                         <li><Link to="/blog-details">Blog Details</Link></li>
                                                     </ul>
-                                                </li>
+                                                </li> */}
                                                 <li><Link to="/contact">Contact</Link></li>
                                             </ul>
                                         </nav>

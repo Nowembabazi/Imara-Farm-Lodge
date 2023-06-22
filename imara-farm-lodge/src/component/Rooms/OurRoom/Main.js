@@ -252,7 +252,7 @@ const Main = () => {
                     </div>
                 </div>
             </section>
-            <section className="feature-area2 p-relative fix" style={{background: "#f7f5f1"}}>
+            {/* <section className="feature-area2 p-relative fix" style={{background: "#f7f5f1"}}>
                  <div className="animations-02"><img src="assets/img/bg/an-img-02.png" alt="contact-bg-an-05" /></div>
                 <div className="container">
                     <div className="row justify-content-center align-items-center">
@@ -278,7 +278,7 @@ const Main = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
             <section className="booking pt-120 pb-120 p-relative fix">
                 <div className="animations-01"><img src="assets/img/bg/an-img-01.png" alt="an-img-01" /></div>
                 <div className="container">
