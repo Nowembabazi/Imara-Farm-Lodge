@@ -28,11 +28,11 @@ const Main = () => {
                                     <ul>
                                         <li>
                                             <i className="far fa-clock"></i>
-                                            <span>Mon - Fri: 9:00 - 19:00/ Closed on Weekends</span>
+                                            <span>Mon - Sun: 9:00 - 00:00/ Always OPEN.</span>
                                         </li>
                                         <li>
                                             <i className="far fa-mobile"></i>
-                                            <strong>+91 705 210-1786</strong>
+                                            <strong>+256.........</strong>
                                         </li>
                                     </ul>
                                 </div>
@@ -56,6 +56,7 @@ const Main = () => {
                             <div className="row align-items-center">
                                 <div className="col-xl-2 col-lg-2">
                                     <div className="logo">
+                                        <p>IMARA FARM LODGE.</p>
                                         <Link to="/"><img src="assets/img/logo/logo.png" alt="logo" /></Link>
                                     </div>
                                 </div>
