@@ -141,7 +141,7 @@ const Main = () => {
                     </div>
                 </div>
             </section>
-            <section id="blog" className="blog-area p-relative fix pt-90 pb-90">
+            {/* <section id="blog" className="blog-area p-relative fix pt-90 pb-90">
                  <div className="animations-02"><img src="assets/img/bg/an-img-06.png" alt="contact-bg-an-05"/></div>
                 <div className="container">
                     <div className="row align-items-center"> 
@@ -204,7 +204,7 @@ const Main = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
             <section className="newslater-area p-relative pt-120 pb-120" style= {{background: "#f7f5f1"}}>
                 <div className="animations-01"><img src="assets/img/bg/an-img-07.png" alt="contact-bg-an-05"/></div>
                 <div className="container">
@@ -217,12 +217,12 @@ const Main = () => {
                                 </h2>
                                 <p>With the subscription, enjoy your favourite Hotels without having to think about it</p>
                             </div>
-                            <form name="ajax-form" id="contact-form4" action="#" method="post" className="contact-form newslater">
+                            {/* <form name="ajax-form" id="contact-form4" action="#" method="post" className="contact-form newslater">
                                <div className="form-group">
                                   <input className="form-control" id="email3" name="email" type="email" placeholder="Your Email Address" value="" required=""/> 
                                   <button type="submit" className="btn btn-custom" id="send2">Subscribe Now</button>
                                </div>
-                            </form>
+                            </form> */}
                         </div>
                     </div>
                 </div>
