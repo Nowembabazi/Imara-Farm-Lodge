@@ -65,7 +65,7 @@ CSS Index
 }
  .mean-container .mean-nav ul li a {
     border-top: 1px solid rgba(217, 217, 217, 0.5);
-    color: #333;
+    color: rgb(5, 55, 5);
     display: block;
     float: left;
     margin: 0;
@@ -635,7 +635,7 @@ color: #644222;
     margin-left: 10px;
 }
 .top-btn:hover {
-    background: transparent linear-gradient(90deg, #6442220%, #644222100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(90deg,) 0% 0% no-repeat padding-box;
      color: #fff;
 }
 .sticky-menu .logo{
@@ -881,7 +881,7 @@ z-index: 2;
     color: #644222;
 }
 .header-three .second-header {
-  background: #644222;
+  background: rgb(4, 50, 4);
     padding: 10px 0;   
     z-index: 99; 
 }
@@ -897,7 +897,7 @@ background: #09090975;
 }
 .header-three .sticky-menu {
   margin-top: 0;
-    background: #644222;
+    background: rgb(4, 63, 4);
 }
 
 .header-three .main-menu ul li a {
@@ -2408,13 +2408,6 @@ box-shadow: none;
 .second-services-content p {
 	margin-bottom: 0;
 }
-.second-services-content a {
-	/*font-size: 14px;
-	font-weight: 500;
-	color: #444d69;
-	position: relative;
-	transition: .5s;*/
-}
 
 .second-services-content a::after {
 	left: -40px;
@@ -2533,11 +2526,7 @@ opacity:1;
 .s-single-services.active a.ss-btn{
     display: inline-block;
 }
-.s-single-services.active .second-services-content h5{}
-.s-single-services.active .second-services-content a,#feature-top .s-single-services.active .btn2,.s-single-services.active .services-icon .glyph-icon::before{}
-.s-single-services.active .second-services-content p{
-   
-}
+
 .s-single-services.active .active-icon{display: block;}
 .s-single-services.active .d-active-icon{display: none;}
 .services-bg {
@@ -2628,7 +2617,7 @@ padding-top: 30px;
 .services-box .ss-btn2{
     width: 60px;
     height: 60px;
-    background: #6442220% 0% no-repeat padding-box;
+    background: 0% no-repeat padding-box;
     box-shadow: 0px 16px 32px #64422233;
     display: none;
     color: #fff;
@@ -3256,7 +3245,7 @@ border-radius: 50%;
 	top: 50%;
 	height: 90px;
 	width: 90px;
-	background: transparent linear-gradient(90deg, #6442220%, #644222100%) 0% 0% no-repeat padding-box;
+	background: transparent linear-gradient(90deg,) 0% 0% no-repeat padding-box;
 	z-index: -1;
 	border-radius: 50%;
 	transform: translate(-50%,-50%);
@@ -3382,7 +3371,6 @@ margin-bottom: 20px;
     color: #fff !important;
     display: flex;
     padding: 10px 25px;
-    float: left;
     margin-right: 25px;
     position: relative;
     border: 2px solid #1f53db;
@@ -3576,13 +3564,8 @@ height: 10px;
 width: 10px;
 border-radius: 2px;
 border: none;
+}
     
-}
- .team-active .slick-dots li.slick-active button {
-}
-.team-active .slick-dots li.slick-active button::before {
-    opacity: 1;
-}
 .team-active .slick-dots li button::before {
     content: "";
     width: 19px;
@@ -3845,9 +3828,7 @@ top: 40px;
 }
 
 /* 12. project */
-.project h2{
 
-}
 .single-project .project-info {
 position: absolute;
 bottom: 40px;
@@ -4002,7 +3983,6 @@ padding-left: 0;
 padding-right: 0;
 }
 .counter-area .row div:nth-child(4) .single-counter {
-  display: ;
   border-right: none;
 }
 .single-counter {
@@ -4696,9 +4676,6 @@ box-shadow: 2.5px 4.33px 15px 0px rgba(0, 0, 0, 0.09);
 overflow: hidden;
 }
 
-.faq-wrap .card:last-child {
-    
-}
 .faq-wrap .card-header h2 button::after {
 position: absolute;
 content: "\f107";
@@ -4752,8 +4729,7 @@ color: #fff;
     transition: .3s;
     
 }
- .home-blog-active .slick-dots li.slick-active button {
-}
+
 .home-blog-active .slick-dots li.slick-active button::before {
     background: #644222;
     opacity: 1;
@@ -4793,10 +4769,6 @@ color: #644222;
 background: #fff;
 font-size: 24px;
     box-shadow: 2.5px 4.33px 15px 0px rgba(0, 0, 0, 0.07);
-}
-
-.home-blog-active .slick-prev {
-
 }
 
 .home-blog-active .slick-arrow.slick-next,.home-blog-active2 .slick-arrow.slick-next {
@@ -5504,10 +5476,6 @@ color: #926d63;
     color: #be9874;
 }
 
-/* meal */
-.populer-meal ul {
-    
-}
 .populer-meal li {
     display: inline-block;
     width: 33.14%;
@@ -6284,10 +6252,7 @@ width: auto !important;
     width: 100%;
 
 }
-.sidebar-widget .widget li.page_item_has_children,
- {
-    padding-bottom: 0;
-}
+
 .sidebar-widget .widget .children{
 	padding-left:15px;
 }
@@ -6925,12 +6890,6 @@ pre cite {
 
 /* Here's the new CSS to add... */
 
-.admin-bar .menu-area {
-   
-}
-.admin-bar .second-header {
-  
-}
 .admin-bar .sticky-menu {
   top: 32px;
   margin-top:0;
@@ -7660,7 +7619,7 @@ td.product-thumbnail img {
 }
 
 .coupon-info p.form-row input[type="submit"]:hover, p.checkout-coupon input[type="submit"]:hover {
-  background: #644222none repeat scroll 0 0;
+  background: none repeat scroll 0 0;
 }
 
 .coupon-info p.form-row input[type="checkbox"] {
@@ -7679,7 +7638,6 @@ td.product-thumbnail img {
   border: medium none;
   color: #fff;
   display: inline-block;
-  float: left;
   font-size: 12px;
   font-weight: 600;
   height: 40px;
@@ -7947,7 +7905,6 @@ p.checkout-coupon input[type="text"] {
 }
 
 .payment-method .btn-link {
-  -moz-user-select: none;
   background: no-repeat;
   border: medium none;
   border-radius: 0;
@@ -9076,7 +9033,7 @@ display: inline-block;
     margin-top: 50px;
 }
 .process-area .col-lg-3.col-md-12:nth-child(2) .process-icon,.process-area .col-lg-3.col-md-12:nth-child(2) .no{
-    background: #6442220% 0% no-repeat padding-box;
+    background: 0% no-repeat padding-box;
 }
 .process-area .col-lg-3.col-md-12:nth-child(3) .process-icon,.process-area .col-lg-3.col-md-12:nth-child(3) .no{
     background: #27ae61 0% 0% no-repeat padding-box;
@@ -10380,9 +10337,6 @@ border-radius: 5px;
     margin-top: 30px;
 }
 
-.single-post .footer-widget{
-  
-}
 figure.aligncenter img {
     margin-bottom: 15px;
 }
@@ -10424,9 +10378,7 @@ figure img {
 .footer-widget .textwidget,.footer-widget .recentcomments a,.footer-widget a,.footer-widget .widget_categories a{
     color: #99A3AC;
 }
-.footer-widget .recentcomments a:hover,.footer-widget a:hover,.footer-widget .widget_categories a:hover{
 
-}
 .footer-widget .tag-cloud-link:hover{
     color: #fff;
 }
@@ -10570,8 +10522,7 @@ blockquote footer {
 .contact-info .single-cta {
    float: left;
 }
-.contact-info p{
-}
+
 .contact-info h5{
 	color:#101010;
 }
@@ -10872,8 +10823,7 @@ margin-top: -100px;
 .booking-area2{
     margin-top: 100px;
 }
-.booking-area ul {
-}
+
 .booking-area ul li {
 margin-right: 10px;
 padding-right: 10px;
