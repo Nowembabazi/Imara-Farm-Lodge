@@ -57,7 +57,7 @@ const Main = () => {
                                 <div className="col-xl-2 col-lg-2">
                                     <div className="logo">
                                         <p>IMARA FARM LODGE.</p>
-                                        <Link to="/"><img src="assets/img/logo/logo.png" alt="logo" /></Link>
+                                        <Link to="/"><img src="assets/img/logos/logo.jpg" alt="logo" /></Link>
                                     </div>
                                 </div>
                                 <div className="col-xl-8 col-lg-8">
@@ -74,13 +74,13 @@ const Main = () => {
                                                     </ul>
                                                 </li>
                                                 <li><Link to="/about">About</Link></li>
-                                                <li className="has-sub">
+                                                {/* <li className="has-sub">
                                                     <Link to="/room">our rooms</Link>
                                                     <ul>
                                                         <li> <Link to="/room">Our Rooms</Link></li>
-                                                        {/* <li> <Link to="/room-details">Rooms Details</Link></li> */}
+                                                        <li> <Link to="/room-details">Rooms Details</Link></li>
                                                     </ul>
-                                                </li>
+                                                </li> */}
                                                 {/* <li className="has-sub">
                                                     <Link to="/service">Facilities</Link>
                                                     <ul>
@@ -132,27 +132,27 @@ const Main = () => {
                                                         <Link to="/">Home</Link>
                                                         <ul style={{ display: show ? "block" : "none" }}>
                                                             <li><Link to="/">Home Page 01</Link></li>
-                                                            <li><Link to="/home-02">Home Page 02</Link></li>
+                                                            {/* <li><Link to="/home-02">Home Page 02</Link></li>
                                                             <li><Link to="/home-03">Home Page Side Menu</Link></li>
-                                                            <li><Link to="/home-04">Home Page Full Menu</Link></li>
+                                                            <li><Link to="/home-04">Home Page Full Menu</Link></li> */}
                                                         </ul>
                                                         <Link to="#" className={`mean-expand ${show && "mean-clicked"}`}  onClick = {() => setshow(show === true ? false : true)} style={{ fontSize: "18px" }}>{show ? "-" : "+" }</Link>
                                                     </li>
                                                     <li><Link to="/about">About</Link></li>
-                                                    <li className="has-sub">
+                                                    {/* <li className="has-sub">
                                                         <Link to="/room">our rooms</Link>
                                                         <ul style={{ display: show1 ? "block" : "none" }}>
                                                             <li> <Link to="/room">Our Rooms</Link></li>
                                                             <li> <Link to="/room-details">Rooms Details</Link></li>
                                                         </ul>
-                                                        <Link to="#" className={`mean-expand ${show1 && "mean-clicked"}`} onClick = {() => setshow1(show1 === true ? false : true)} style={{ fontSize: "18px" }}>{show1 ? "-" : "+" }</Link></li>
-                                                    <li className="has-sub">
+                                                        <Link to="#" className={`mean-expand ${show1 && "mean-clicked"}`} onClick = {() => setshow1(show1 === true ? false : true)} style={{ fontSize: "18px" }}>{show1 ? "-" : "+" }</Link></li> */}
+                                                    {/* <li className="has-sub">
                                                         <Link to="/service">Facilities</Link>
                                                         <ul style={{ display: show2 ? "block" : "none" }}>
                                                             <li> <Link to="/service">Services</Link></li>
                                                             <li> <Link to="/service-details">Services Details</Link></li>
                                                         </ul>
-                                                        <Link to="#" className={`mean-expand ${show2 && "mean-clicked"}`} onClick = {() => setshow2(show2 === true ? false : true)}  style={{ fontSize: "18px" }}>{show2 ? "-" : "+" }</Link></li>
+                                                        <Link to="#" className={`mean-expand ${show2 && "mean-clicked"}`} onClick = {() => setshow2(show2 === true ? false : true)}  style={{ fontSize: "18px" }}>{show2 ? "-" : "+" }</Link></li> */}
                                                     <li className="has-sub"><Link to="#">Pages</Link>
                                                         <ul style={{ display: show3 ? "block" : "none" }}>
                                                             <li><Link to="/gallery">Gallery</Link></li>
@@ -164,13 +164,13 @@ const Main = () => {
                                                             <li><Link to="/shop-details">Shop Details</Link>
                                                             </li></ul>
                                                         <Link to="#"  className={`mean-expand ${show3 && "mean-clicked"}`} onClick = {() => setshow3(show3 === true ? false : true)} style={{ fontSize: "18px" }}>{show3 ? "-" : "+" }</Link></li>
-                                                    <li className="has-sub">
+                                                    {/* <li className="has-sub">
                                                         <Link to="/blog/">Blog</Link>
                                                         <ul style={{ display: show4 ? "block" : "none" }}>
                                                             <li><Link to="/blog/">Blog</Link></li>
                                                             <li><Link to="/blog-details/">Blog Details</Link></li>
                                                         </ul>
-                                                        <Link to="#"  className={`mean-expand ${show4 && "mean-clicked"}`} onClick = {() => setshow4(show4 === true ? false : true)} style={{ fontSize: "18px" }}>{show4 ? "-" : "+" }</Link></li>
+                                                        <Link to="#"  className={`mean-expand ${show4 && "mean-clicked"}`} onClick = {() => setshow4(show4 === true ? false : true)} style={{ fontSize: "18px" }}>{show4 ? "-" : "+" }</Link></li> */}
                                                     <li className="mean-last"><Link to="/contact">Contact</Link></li>
                                                 </ul> }
                                             </nav>

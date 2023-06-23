@@ -6,7 +6,7 @@ const Main = () => {
   return (
     <>
         <footer className="footer-bg footer-p">
-            <div className="footer-top  pt-90 pb-40" style={{background_color: "#644222", backgroundImage: `url(${BGImg})`}}>
+            <div className="footer-top  pt-90 pb-40" style={{background_color: "green", backgroundImage: `url(${BGImg})`}}>
                 <div className="container">
                     <div className="row justify-content-between">                          
                         <div className="col-xl-4 col-lg-4 col-sm-6">
