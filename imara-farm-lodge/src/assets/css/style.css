@@ -54,7 +54,11 @@ CSS Index
   margin-right: 2px;
 }
 .text-left{
-    text-align: left !important;
+  text-align: left !important;
+}
+
+h3{
+  color:white;
 }
 .mean-container a.meanmenu-reveal span {
     background: no-repeat;
