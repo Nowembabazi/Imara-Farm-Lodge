@@ -156,13 +156,14 @@ const Main = () => {
                                                     <li className="has-sub"><Link to="#">Pages</Link>
                                                         <ul style={{ display: show3 ? "block" : "none" }}>
                                                             <li><Link to="/gallery">Gallery</Link></li>
-                                                            <li><Link to="/faq">Faq</Link></li>
+                                                            {/* <li><Link to="/faq">Faq</Link></li>
                                                             <li><Link to="/team">Team</Link></li>
                                                             <li><Link to="/team-details">Team Details</Link></li>
                                                             <li><Link to="/pricing">Pricing</Link></li>
                                                             <li><Link to="/shop">Shop</Link></li>
                                                             <li><Link to="/shop-details">Shop Details</Link>
-                                                            </li></ul>
+                                                            </li> */}
+                                                        </ul>
                                                         <Link to="#"  className={`mean-expand ${show3 && "mean-clicked"}`} onClick = {() => setshow3(show3 === true ? false : true)} style={{ fontSize: "18px" }}>{show3 ? "-" : "+" }</Link></li>
                                                     {/* <li className="has-sub">
                                                         <Link to="/blog/">Blog</Link>

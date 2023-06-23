@@ -12,7 +12,7 @@ const Main = () => {
                         <div className="col-xl-4 col-lg-4 col-sm-6">
                             <div className="footer-widget mb-30">
                                 <div className="f-widget-title mb-30">
-                                   <img src="assets/img/logo/logo.png" alt="img" />
+                                <h3 style={{ color: 'white' }}>IMARA FARM LODGE.</h3>
                                 </div>
                                 <div className="f-contact">
                                     <ul>
