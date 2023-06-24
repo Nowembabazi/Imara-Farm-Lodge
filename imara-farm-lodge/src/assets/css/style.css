@@ -1222,11 +1222,12 @@ font-size: 18px;
   bottom: 100px;
 }
 .slider-bg {
-	min-height: 1000px !important;
+	min-height: 500px !important;
 	background-position: center bottom;
 	background-size: cover;
 	position: relative;
 	z-index: 1;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }
 .slider-bg .image-layer {
     position: absolute;
@@ -1239,6 +1240,7 @@ font-size: 18px;
     transform: scale(1);
     transition: transform 7000ms ease;
     z-index: 1;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }
 .slider-bg.slick-active .image-layer{
      transform: scale(1.15);
