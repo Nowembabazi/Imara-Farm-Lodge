@@ -212,7 +212,7 @@ const Main = () => {
                                 <div className="row justify-content-center align-items-center">
                                     <div className="col-lg-7 col-md-7">
                                         <div className="slider-content s-slider-content mt-80 text-center">
-                                            <h2 className={`${animation && "animation" && "fadeInUp"} `} data-animation="fadeInUp" data-delay=".4s" style={{animationDelay: "0.4s"}}>Enjoy A Luxuary Experience</h2>
+                                            <h2 className={`${animation && "animation" && "fadeInUp"} `} data-animation="fadeInUp" data-delay=".4s" style={{animationDelay: "0.4s"}}>Enjoy A Luxury Experience</h2>
                                             <p data-animation="fadeInUp" data-delay=".6s"></p>
                                             
                                             <div className="slider-btn mt-30 mb-105">     
@@ -231,7 +231,7 @@ const Main = () => {
                            <div className="row justify-content-center align-items-center">
                                 <div className="col-lg-7 col-md-7">
                                     <div className="slider-content s-slider-content mt-80 text-center">
-                                        <h2 data-animation="fadeInUp" data-delay=".4s" style={{animationDelay: "0.4s"}}>Enjoy A Luxuary Experience</h2>
+                                        <h2 data-animation="fadeInUp" data-delay=".4s" style={{animationDelay: "0.4s"}}>Enjoy A Luxury Experience</h2>
                                         <p data-animation="fadeInUp" data-delay=".6s">.</p>
                                         
                                         <div className="slider-btn mt-30 mb-105">     
@@ -624,7 +624,7 @@ const Main = () => {
                                 <div className="feature-title pb-20">                               
                                     <h5>Luxury Hotel & Resort</h5>
                                 <h2>
-                                 Pearl Of The Adriatic.
+                                 Pearl Of The Fortportal.
                                 </h2>                             
                                 </div>
                                 <p>Vestibulum non ornare nunc. Maecenas a metus in est iaculis pretium. Aliquam ullamcorper nibh lacus, ac suscipit ipsum consequat porttitor.Aenean vehicula ligula eu rhoncus porttitor. Duis vel lacinia quam. Nunc rutrum porta ex, in imperdiet tortor feugiat at.</p>
