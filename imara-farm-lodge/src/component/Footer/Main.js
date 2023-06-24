@@ -18,7 +18,7 @@ const Main = () => {
                                     <ul>
                                         <li>
                                             <i className="icon fal fa-phone"></i>
-                                            <span>1800-121-3637<br/>+91-7052-101-786</span>
+                                            <span>+256...........<br/>+256.......</span>
                                         </li>
                                         <li>
                                             <i className="icon fal fa-envelope"></i>
@@ -29,7 +29,7 @@ const Main = () => {
                                         </li>
                                         <li>
                                             <i className="icon fal fa-map-marker-check"></i>
-                                            <span>1247/Plot No. 39, 15th Phase,<br/> LHB Colony, Kanpur</span>
+                                            <span>FORTPORTAL<br/> FORTPORTAL, UGANDA</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -89,7 +89,7 @@ const Main = () => {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-md-6">                         
-                           Copyright &copy; Riorelax 2022 . All rights reserved.         
+                           Copyright &copy; IMARA FARM 2023 . All rights reserved.         
                         </div>
                         <div className="col-lg-6 col-md-6 text-right text-xl-right">                       
                            <div className="footer-social">                                    

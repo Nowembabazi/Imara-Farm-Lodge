@@ -50,14 +50,14 @@ const Main = () => {
                         </div>
                     </div>
                 </div>
-                <div id="header-sticky" className="menu-area">
+                <div id="header-sticky" className="menu-area">  
                     <div className="container">
                         <div className="second-menu">
                             <div className="row align-items-center">
                                 <div className="col-xl-2 col-lg-2">
                                     <div className="logo">
-                                        <p>IMARA FARM LODGE.</p>
-                                        <Link to="/"><img src="assets/img/logos/logo.jpg" alt="logo" /></Link>
+                                      <h4 style={{ color: 'white' }}>IMARA FARM LODGE</h4>
+                                        {/* <Link to="/"><img src="assets/img/logos/logo.jpg" alt="logo" /></Link> */}
                                     </div>
                                 </div>
                                 <div className="col-xl-8 col-lg-8">

@@ -207,17 +207,17 @@ const Main = () => {
             <section id="home" className="slider-area fix p-relative">
                 <Slider className="slider-active" {...home}>
                     <div className="col-xl-2">
-                        <div className="single-slider slider-bg d-flex align-items-center" style={{backgroundImage: `url(${BGImg})`}}>
+                        <div className="single-slider slider-bg d-flex align-items-center" style={{backgroundImage: `url(${BGImg})`,backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center'}}>
                             <div className="container">
                                 <div className="row justify-content-center align-items-center">
                                     <div className="col-lg-7 col-md-7">
                                         <div className="slider-content s-slider-content mt-80 text-center">
                                             <h2 className={`${animation && "animation" && "fadeInUp"} `} data-animation="fadeInUp" data-delay=".4s" style={{animationDelay: "0.4s"}}>Enjoy A Luxuary Experience</h2>
-                                            <p data-animation="fadeInUp" data-delay=".6s">Donec vitae libero non enim placerat eleifend aliquam erat volutpat. Curabitur diam ex, dapibus purus sapien, cursus sed nisl tristique, commodo gravida lectus non.</p>
+                                            <p data-animation="fadeInUp" data-delay=".6s"></p>
                                             
                                             <div className="slider-btn mt-30 mb-105">     
                                                 <Link to="/contact" className="btn ss-btn active mr-15" data-animation="fadeInLeft" data-delay=".4s">Discover More </Link>
-                                                <Link to="#"  onClick={() => sethShow(true)} className="video-i popup-video" data-animation="fadeInUp" data-delay=".8s" style={{animation_delay:" 0.8s"}} tabIndex="0"><i className="fas fa-play"></i> Intro Video</Link>
+                                                {/* <Link to="#"  onClick={() => sethShow(true)} className="video-i popup-video" data-animation="fadeInUp" data-delay=".8s" style={{animation_delay:" 0.8s"}} tabIndex="0"><i className="fas fa-play"></i> Intro Video</Link> */}
                                             </div>                
                                         </div>
                                     </div>                                
@@ -232,11 +232,11 @@ const Main = () => {
                                 <div className="col-lg-7 col-md-7">
                                     <div className="slider-content s-slider-content mt-80 text-center">
                                         <h2 data-animation="fadeInUp" data-delay=".4s" style={{animationDelay: "0.4s"}}>Enjoy A Luxuary Experience</h2>
-                                        <p data-animation="fadeInUp" data-delay=".6s">Donec vitae libero non enim placerat eleifend aliquam erat volutpat. Curabitur diam ex, dapibus purus sapien, cursus sed nisl tristique, commodo gravida lectus non.</p>
+                                        <p data-animation="fadeInUp" data-delay=".6s">.</p>
                                         
                                         <div className="slider-btn mt-30 mb-105">     
                                             <Link to="/contact" className="btn ss-btn active mr-15" data-animation="fadeInLeft" data-delay=".4s">Discover More </Link>
-                                            <Link to="#" onClick={() => sethShow(true)}  className="video-i popup-video" data-animation="fadeInUp" data-delay=".8s" style={{animation_delay:" 0.8s"}} tabIndex="0"><i className="fas fa-play"></i> Intro Video</Link>
+                                            {/* <Link to="#" onClick={() => sethShow(true)}  className="video-i popup-video" data-animation="fadeInUp" data-delay=".8s" style={{animation_delay:" 0.8s"}} tabIndex="0"><i className="fas fa-play"></i> Intro Video</Link> */}
                                         </div>                
                                     </div>
                                 </div>                                
@@ -246,7 +246,7 @@ const Main = () => {
                     </div>
                 </Slider>
             </section>
-            <div id="booking" className="booking-area p-relative">
+            {/* <div id="booking" className="booking-area p-relative">
                 <div className="container">
                     <form action="#" className="contact-form" >
                         <div className="row align-items-center">
@@ -314,7 +314,7 @@ const Main = () => {
                         </div>
                     </form>
                 </div>
-            </div>
+            </div> */}
             {/* <section className="about-area about-p pt-120 pb-120 p-relative fix">
                 <div className="animations-02"><img src={About} alt="contact-bg-an-02"/></div>
                 <div className="container">
@@ -543,7 +543,7 @@ const Main = () => {
                                 </div>
                             </div>
                         </div>
-                        {/* <div className="col-xl-4 col-md-6">
+                        <div className="col-xl-4 col-md-6">
                             <div className="single-services mb-30">
                                 <div className="services-thumb">
 									<Link to="#" className="gallery-link popup-image" onClick={() => { 
@@ -574,7 +574,7 @@ const Main = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div> */}
+                        </div>
                         <div className="col-xl-4 col-md-6">
                             <div className="single-services mb-30">
                                 <div className="services-thumb">
