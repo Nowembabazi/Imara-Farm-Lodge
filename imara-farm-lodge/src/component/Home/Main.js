@@ -645,7 +645,7 @@ const Main = () => {
                         <div className="col-lg-4 col-md-12">
                             <div className="section-title mb-20">
                                 <h5>Best Prices</h5>
-                                <h2>Extra Services</h2>                               
+                                <h2>Extra Activities</h2>                               
                             </div>
                             <p>Proin consectetur non dolor vitae pulvinar. Pellentesque sollicitudin dolor eget neque viverra, sed interdum metus interdum. Cras lobortis pulvinar dolor, sit amet ullamcorper dolor iaculis vel</p>
                             <p>Cras finibus laoreet felis et hendrerit. Integer ligula lorem, finibus vitae lorem at, egestas consectetur urna. Integer id ultricies elit. Maecenas sodales nibh, quis posuere felis. In commodo mi lectus venenatis metus eget fringilla. Suspendisse varius ante eget.</p>
@@ -653,7 +653,7 @@ const Main = () => {
                         <div className="col-lg-4 col-md-6">
                             <div className="pricing-box pricing-box2 mb-60">
                                 <div className="pricing-head">  
-                                    <h3>Room cleaning</h3>    
+                                    <h3>Farm Touring</h3>    
                                     <p>Perfect for early-stage startups</p>
                                     <div className="month">Monthly</div>
                                     <div className="price-count">
@@ -676,7 +676,7 @@ const Main = () => {
                          <div className="col-lg-4 col-md-6">
                             <div className="pricing-box pricing-box2 mb-60">
                                 <div className="pricing-head">  
-                                    <h3>Drinks included</h3>    
+                                    <h3>Tour at Queen Elizabeth</h3>    
                                     <p>Perfect for early-stage startups</p>
                                     <div className="month">Monthly</div>
                                     <div className="price-count">
@@ -715,7 +715,7 @@ const Main = () => {
                                      <div className="testi-author">
                                         <img src={avatar1} alt="img"/>
                                         <div className="ta-info">
-                                            <h6>Jina Nilson</h6>
+                                            <h6>Cordelia</h6>
                                             <span>Client</span>
                                         </div>
                                     </div>
@@ -732,7 +732,7 @@ const Main = () => {
                                         <div className="testi-author">
                                             <img src={avatar2} alt="img"/>
                                             <div className="ta-info">
-                                                <h6>Braitly Dcosta</h6>
+                                                <h6>Henry Mugabe</h6>
                                                 <span>Client</span>
                                             </div>
                                         </div>
@@ -749,7 +749,7 @@ const Main = () => {
                                         <div className="testi-author">
                                             <img src={avatar3} alt="img"/>
                                             <div className="ta-info">
-                                                <h6>Roboto Dose</h6>
+                                                <h6>Irene</h6>
                                                 <span>Client</span>
                                             </div>
                                         </div>
@@ -766,7 +766,7 @@ const Main = () => {
                                      <div className="testi-author">
                                         <img src={avatar2} alt="img"/>
                                         <div className="ta-info">
-                                            <h6>Braitly Dcosta</h6>
+                                            <h6>Anne Mugabe</h6>
                                             <span>Client</span>
                                         </div>
                                     </div>
