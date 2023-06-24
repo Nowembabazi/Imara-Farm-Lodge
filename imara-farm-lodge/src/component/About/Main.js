@@ -120,7 +120,7 @@ const Main = () => {
                     <div className="row justify-content-center align-items-center">
                         <div className="col-lg-6 col-md-12 col-sm-12 pr-30">
                            <div className="feature-img">                               
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS0szMmPRBn3P0SNdanR8aj0EpfDT_I8ASr37GiMrYjjwNDnbiJxPnQza62mhMvw5E_cM&usqp=CAU.png" alt="img" className="img" style={{ width: '80%', height: '100%' }} />              
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS0szMmPRBn3P0SNdanR8aj0EpfDT_I8ASr37GiMrYjjwNDnbiJxPnQza62mhMvw5E_cM&usqp=CAU.png" alt="img" className="img" />              
                             </div>
                         </div>
 					   <div className="col-lg-6 col-md-12 col-sm-12">
