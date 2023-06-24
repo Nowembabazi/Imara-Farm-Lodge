@@ -33,17 +33,17 @@ const Main = () => {
                     <div className="row justify-content-center align-items-center">
                         <div className="col-lg-6 col-md-12 col-sm-12">
                             <div className="s-about-img p-relative  wow fadeInLeft animated" data-animation="fadeInLeft" data-delay=".4s">
-                                <img src="assets/img/features/about_img_02.png" alt="img" />   
-                                <div className="about-icon">
-                                     <img src="assets/img/features/about_img_03.png" alt="img" />   
-                                </div>
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1DwxlRklU8D4pgMCwj2YMkaZuI4rtLFHv1g&usqp=CAU.png" alt="img" style={{ width: '100%', height: '100%' }}  />   
+                                {/* <div className="about-icon">
+                                     <img src="" alt="img" />   
+                                </div> */}
                             </div>
                         </div>
 					    <div className="col-lg-6 col-md-12 col-sm-12">
                             <div className="about-content s-about-content  wow fadeInRight  animated pl-30" data-animation="fadeInRight" data-delay=".4s">
                                 <div className="about-title second-title pb-25">  
                                     <h5>About Us</h5>
-                                    <h2>Most Safe & Rated Hotel In London.</h2>                                   
+                                    <h2>Most Safe & Rated Hotel In UGANDA.</h2>                                   
                                 </div>
                                 <p>Morbi tortor urna, placerat vel arcu quis, fringilla egestas neque. Morbi sit amet porta erat, quis rutrum risus. Vivamus et gravida nibh, quis posuere felis. In commodo mi lectus, Integer ligula lorem, finibus vitae lorem vitae tincidunt dolor consequat quis.</p>
                                 <p>Cras finibus laoreet felis et hendrerit. Integer ligula lorem, finibus vitae lorem at, egestas consectetur urna. Integer id ultricies elit. Maecenas sodales nibh, quis posuere felis. In commodo mi lectus venenatis metus eget fringilla. Suspendisse varius ante eget lorem tempus blandit. Aenean eu vulputate lorem, quis auctor lectus.</p>
@@ -59,7 +59,7 @@ const Main = () => {
                                         <div className="col-md-12">
                                             <div className="signature">
                                                 <img src="assets/img/features/signature.png" alt="img" />     
-                                                <h3 className="mt-10">Vincent Smith</h3>
+                                                <h3 className="mt-10">NICKSON</h3>
                                             </div>
                                         </div>
                                     </div>
@@ -76,7 +76,7 @@ const Main = () => {
 					   <div className="col-lg-6 col-md-12 col-sm-12">
                             <div className="skills-content s-about-content">
                                 <div className="skills-title pb-20">                               
-                                    <h5>Rio We Use</h5>
+                                    <h5>luxury for you</h5>
                                     <h2>
                                     We Offer Wide Selection of Hotel
                                     </h2>                             
@@ -108,7 +108,7 @@ const Main = () => {
                         </div>
                         <div className="col-lg-6 col-md-12 col-sm-12 pr-30">
                             <div className="skills-img wow fadeInRight  animated" data-animation="fadeInRight" data-delay=".4s">                              
-                                <img src="assets/img/bg/skills-img.png" alt="img" className="img"/>              
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTddpRBdvD8_if_fKNzYOHn_OasdC6CLzs0EmQdnauiyZogf41Th0ZO6Z4PePzeAYpISUY&usqp=CAU.png" alt="img" className="img" style={{ width: '80%', height: '150%' }}/>              
                             </div>
                         </div>
                     </div>
@@ -120,22 +120,22 @@ const Main = () => {
                     <div className="row justify-content-center align-items-center">
                         <div className="col-lg-6 col-md-12 col-sm-12 pr-30">
                            <div className="feature-img">                               
-                                <img src="assets/img/features/feature.png" alt="img" className="img"/>              
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS0szMmPRBn3P0SNdanR8aj0EpfDT_I8ASr37GiMrYjjwNDnbiJxPnQza62mhMvw5E_cM&usqp=CAU.png" alt="img" className="img" />              
                             </div>
                         </div>
 					   <div className="col-lg-6 col-md-12 col-sm-12">
                             <div className="feature-content s-about-content">
                                 <div className="feature-title pb-20">                               
-                                    <h5>Luxury Hotel & Resort</h5>
+                                    <h5>Luxury lodge & Resort</h5>
                                 <h2>
-                                 Pearl Of The Adriatic.
+                                 Pearl Of The FortPortal.
                                 </h2>                             
                                 </div>
                                 <p>Vestibulum non ornare nunc. Maecenas a metus in est iaculis pretium. Aliquam ullamcorper nibh lacus, ac suscipit ipsum consequat porttitor.Aenean vehicula ligula eu rhoncus porttitor. Duis vel lacinia quam. Nunc rutrum porta ex, in imperdiet tortor feugiat at.</p>
                                 <p>Cras finibus laoreet felis et hendrerit. Integer ligula lorem, finibus vitae lorem at, egestas consectetur urna. Integer id ultricies elit. Maecenas sodales nibh, quis posuere felis. In commodo mi lectus venenatis metus eget fringilla. Suspendisse varius ante eget.</p>
-                                <div className="slider-btn mt-15">                                          
+                                {/* <div className="slider-btn mt-15">                                          
                                     <Link to ="/about" className="btn ss-btn smoth-scroll">Discover More</Link>				
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

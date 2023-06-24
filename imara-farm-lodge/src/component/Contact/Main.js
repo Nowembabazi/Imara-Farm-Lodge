@@ -38,16 +38,16 @@ const Main = () => {
                                         <i className="far fa-map"></i>
                                     </div>
                                     <h5>Office Address</h5>
-                                    <p>380 St Kilda Road, Melbourne <br/>
-                                            VIC 3004, Australia</p>
+                                    <p>Fortportal district <br/>
+                                            VIC 3004, Uganda</p>
                                 </div>
                                 <div className="single-cta pb-30 mb-30 wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
                                     <div className="f-cta-icon">
                                         <i className="far fa-clock"></i>
                                     </div>
                                     <h5>Working Hours</h5>
-                                    <p>Monday to Friday 09:00 to 18:30 <br/> 
-                                        Saturday 15:30</p>
+                                    <p>Monday to Funday 09:00 to 00;00 <br/> 
+                                        Saturday to Sunday All Hours</p>
                                 </div>
                                 <div className="single-cta wow fadeInUp animated" data-animation="fadeInDown animated" data-delay=".2s">
                                     <div className="f-cta-icon">
@@ -113,7 +113,7 @@ const Main = () => {
                                 <h2>
                                     Get Best Offers On The Hotel
                                 </h2>
-                                <p>With the subscription, enjoy your favourite Hotels without having to think about it</p>
+                                <p> Enjoy your favourite Hotels without having to think about it</p>
                             </div>
                             <form name="ajax-form" id="contact-form4" action="#" method="post" className="contact-form newslater">
                                <div className="form-group">

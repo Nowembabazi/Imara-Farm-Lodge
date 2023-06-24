@@ -8,7 +8,7 @@ import Home from '../component/Home/Main'
 // import Home3 from '../component/Home3/Main'
 // import Home4 from '../component/Home4/Main'
 import About from '../component/About/Main'
-import OurRoom from '../component/Rooms/OurRoom/Main'
+// import OurRoom from '../component/Rooms/OurRoom/Main'
 // import RoomDetails from '../component/Rooms/RoomDetails/Main'
 // import Service from '../component/Facilities/Service/Main'
 // import ServiceDetails from '../component/Facilities/ServiceDetails/Main'
@@ -57,7 +57,7 @@ const Routing = () => {
                 <Route path="/home-03" element={<Home3 />} />
                 <Route path="/home-04" element={<Home4 />} /> */}
                 <Route path="/about" element={<About />} />
-                <Route path="/room" element={<OurRoom />} />
+                {/* <Route path="/room" element={<OurRoom />} /> */}
                 {/* <Route path="/room-details" element={<RoomDetails />} />
                 <Route path="/service" element={<Service />} />
                 <Route path="/service-details" element={<ServiceDetails />} /> */}

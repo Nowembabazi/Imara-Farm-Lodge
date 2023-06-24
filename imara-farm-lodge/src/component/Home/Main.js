@@ -207,17 +207,17 @@ const Main = () => {
             <section id="home" className="slider-area fix p-relative">
                 <Slider className="slider-active" {...home}>
                     <div className="col-xl-2">
-                        <div className="single-slider slider-bg d-flex align-items-center" style={{backgroundImage: `url(${BGImg})`}}>
+                        <div className="single-slider slider-bg d-flex align-items-center" style={{backgroundImage: `url(${BGImg})`,backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center'}}>
                             <div className="container">
                                 <div className="row justify-content-center align-items-center">
                                     <div className="col-lg-7 col-md-7">
                                         <div className="slider-content s-slider-content mt-80 text-center">
-                                            <h2 className={`${animation && "animation" && "fadeInUp"} `} data-animation="fadeInUp" data-delay=".4s" style={{animationDelay: "0.4s"}}>Enjoy A Luxuary Experience</h2>
-                                            <p data-animation="fadeInUp" data-delay=".6s">Donec vitae libero non enim placerat eleifend aliquam erat volutpat. Curabitur diam ex, dapibus purus sapien, cursus sed nisl tristique, commodo gravida lectus non.</p>
+                                            <h2 className={`${animation && "animation" && "fadeInUp"} `} data-animation="fadeInUp" data-delay=".4s" style={{animationDelay: "0.4s"}}>Enjoy A Luxury Experience</h2>
+                                            <p data-animation="fadeInUp" data-delay=".6s"></p>
                                             
                                             <div className="slider-btn mt-30 mb-105">     
                                                 <Link to="/contact" className="btn ss-btn active mr-15" data-animation="fadeInLeft" data-delay=".4s">Discover More </Link>
-                                                <Link to="#"  onClick={() => sethShow(true)} className="video-i popup-video" data-animation="fadeInUp" data-delay=".8s" style={{animation_delay:" 0.8s"}} tabIndex="0"><i className="fas fa-play"></i> Intro Video</Link>
+                                                {/* <Link to="#"  onClick={() => sethShow(true)} className="video-i popup-video" data-animation="fadeInUp" data-delay=".8s" style={{animation_delay:" 0.8s"}} tabIndex="0"><i className="fas fa-play"></i> Intro Video</Link> */}
                                             </div>                
                                         </div>
                                     </div>                                
@@ -231,12 +231,12 @@ const Main = () => {
                            <div className="row justify-content-center align-items-center">
                                 <div className="col-lg-7 col-md-7">
                                     <div className="slider-content s-slider-content mt-80 text-center">
-                                        <h2 data-animation="fadeInUp" data-delay=".4s" style={{animationDelay: "0.4s"}}>Enjoy A Luxuary Experience</h2>
-                                        <p data-animation="fadeInUp" data-delay=".6s">Donec vitae libero non enim placerat eleifend aliquam erat volutpat. Curabitur diam ex, dapibus purus sapien, cursus sed nisl tristique, commodo gravida lectus non.</p>
+                                        <h2 data-animation="fadeInUp" data-delay=".4s" style={{animationDelay: "0.4s"}}>Enjoy A Luxury Experience</h2>
+                                        <p data-animation="fadeInUp" data-delay=".6s">.</p>
                                         
                                         <div className="slider-btn mt-30 mb-105">     
                                             <Link to="/contact" className="btn ss-btn active mr-15" data-animation="fadeInLeft" data-delay=".4s">Discover More </Link>
-                                            <Link to="#" onClick={() => sethShow(true)}  className="video-i popup-video" data-animation="fadeInUp" data-delay=".8s" style={{animation_delay:" 0.8s"}} tabIndex="0"><i className="fas fa-play"></i> Intro Video</Link>
+                                            {/* <Link to="#" onClick={() => sethShow(true)}  className="video-i popup-video" data-animation="fadeInUp" data-delay=".8s" style={{animation_delay:" 0.8s"}} tabIndex="0"><i className="fas fa-play"></i> Intro Video</Link> */}
                                         </div>                
                                     </div>
                                 </div>                                
@@ -246,7 +246,7 @@ const Main = () => {
                     </div>
                 </Slider>
             </section>
-            <div id="booking" className="booking-area p-relative">
+            {/* <div id="booking" className="booking-area p-relative">
                 <div className="container">
                     <form action="#" className="contact-form" >
                         <div className="row align-items-center">
@@ -314,7 +314,7 @@ const Main = () => {
                         </div>
                     </form>
                 </div>
-            </div>
+            </div> */}
             {/* <section className="about-area about-p pt-120 pb-120 p-relative fix">
                 <div className="animations-02"><img src={About} alt="contact-bg-an-02"/></div>
                 <div className="container">
@@ -543,7 +543,7 @@ const Main = () => {
                                 </div>
                             </div>
                         </div>
-                        {/* <div className="col-xl-4 col-md-6">
+                        <div className="col-xl-4 col-md-6">
                             <div className="single-services mb-30">
                                 <div className="services-thumb">
 									<Link to="#" className="gallery-link popup-image" onClick={() => { 
@@ -574,7 +574,7 @@ const Main = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div> */}
+                        </div>
                         <div className="col-xl-4 col-md-6">
                             <div className="single-services mb-30">
                                 <div className="services-thumb">
@@ -624,7 +624,7 @@ const Main = () => {
                                 <div className="feature-title pb-20">                               
                                     <h5>Luxury Hotel & Resort</h5>
                                 <h2>
-                                 Pearl Of The Adriatic.
+                                 Pearl Of The Fortportal.
                                 </h2>                             
                                 </div>
                                 <p>Vestibulum non ornare nunc. Maecenas a metus in est iaculis pretium. Aliquam ullamcorper nibh lacus, ac suscipit ipsum consequat porttitor.Aenean vehicula ligula eu rhoncus porttitor. Duis vel lacinia quam. Nunc rutrum porta ex, in imperdiet tortor feugiat at.</p>
@@ -645,7 +645,7 @@ const Main = () => {
                         <div className="col-lg-4 col-md-12">
                             <div className="section-title mb-20">
                                 <h5>Best Prices</h5>
-                                <h2>Extra Services</h2>                               
+                                <h2>Extra Activities</h2>                               
                             </div>
                             <p>Proin consectetur non dolor vitae pulvinar. Pellentesque sollicitudin dolor eget neque viverra, sed interdum metus interdum. Cras lobortis pulvinar dolor, sit amet ullamcorper dolor iaculis vel</p>
                             <p>Cras finibus laoreet felis et hendrerit. Integer ligula lorem, finibus vitae lorem at, egestas consectetur urna. Integer id ultricies elit. Maecenas sodales nibh, quis posuere felis. In commodo mi lectus venenatis metus eget fringilla. Suspendisse varius ante eget.</p>
@@ -653,7 +653,7 @@ const Main = () => {
                         <div className="col-lg-4 col-md-6">
                             <div className="pricing-box pricing-box2 mb-60">
                                 <div className="pricing-head">  
-                                    <h3>Room cleaning</h3>    
+                                    <h3>Farm Touring</h3>    
                                     <p>Perfect for early-stage startups</p>
                                     <div className="month">Monthly</div>
                                     <div className="price-count">
@@ -676,7 +676,7 @@ const Main = () => {
                          <div className="col-lg-4 col-md-6">
                             <div className="pricing-box pricing-box2 mb-60">
                                 <div className="pricing-head">  
-                                    <h3>Drinks included</h3>    
+                                    <h3>Tour at Queen Elizabeth</h3>    
                                     <p>Perfect for early-stage startups</p>
                                     <div className="month">Monthly</div>
                                     <div className="price-count">
@@ -715,7 +715,7 @@ const Main = () => {
                                      <div className="testi-author">
                                         <img src={avatar1} alt="img"/>
                                         <div className="ta-info">
-                                            <h6>Jina Nilson</h6>
+                                            <h6>Cordelia</h6>
                                             <span>Client</span>
                                         </div>
                                     </div>
@@ -732,7 +732,7 @@ const Main = () => {
                                         <div className="testi-author">
                                             <img src={avatar2} alt="img"/>
                                             <div className="ta-info">
-                                                <h6>Braitly Dcosta</h6>
+                                                <h6>Henry Mugabe</h6>
                                                 <span>Client</span>
                                             </div>
                                         </div>
@@ -749,7 +749,7 @@ const Main = () => {
                                         <div className="testi-author">
                                             <img src={avatar3} alt="img"/>
                                             <div className="ta-info">
-                                                <h6>Roboto Dose</h6>
+                                                <h6>Irene</h6>
                                                 <span>Client</span>
                                             </div>
                                         </div>
@@ -766,7 +766,7 @@ const Main = () => {
                                      <div className="testi-author">
                                         <img src={avatar2} alt="img"/>
                                         <div className="ta-info">
-                                            <h6>Braitly Dcosta</h6>
+                                            <h6>Anne Mugabe</h6>
                                             <span>Client</span>
                                         </div>
                                     </div>

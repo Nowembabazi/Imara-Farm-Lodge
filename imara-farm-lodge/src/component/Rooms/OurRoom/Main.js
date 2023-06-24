@@ -64,7 +64,7 @@ const Main = () => {
                                 }}
                                 >
 									<Link to="#" onClick={() => setImg(true)} className="gallery-link popup-image" >
-                                    <img src="assets/img/gallery/room-img01.png" alt="img" />
+                                    <img src="/assets/img/gallery/room-img01.png" alt="img1" />
 									</Link>
                                 </div>
                                 <div className="services-content"> 

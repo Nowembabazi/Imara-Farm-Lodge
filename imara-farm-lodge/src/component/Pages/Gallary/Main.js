@@ -3,6 +3,7 @@ import BGImg from "../../../assets/img/bg/bdrc-bg.jpg";
 import React , { useState , useEffect} from 'react'
 import FsLightbox from 'fslightbox-react';
 
+
 const Main = () => {
     const [activeImage , setActiveImage] = useState(1)
 

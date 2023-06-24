@@ -6,19 +6,19 @@ const Main = () => {
   return (
     <>
         <footer className="footer-bg footer-p">
-            <div className="footer-top  pt-90 pb-40" style={{background_color: "#644222", backgroundImage: `url(${BGImg})`}}>
+            <div className="footer-top  pt-90 pb-40" style={{background_color: "green", backgroundImage: `url(${BGImg})`}}>
                 <div className="container">
                     <div className="row justify-content-between">                          
                         <div className="col-xl-4 col-lg-4 col-sm-6">
                             <div className="footer-widget mb-30">
                                 <div className="f-widget-title mb-30">
-                                   <img src="assets/img/logo/logo.png" alt="img" />
+                                <h3 style={{ color: 'white' }}>IMARA FARM LODGE.</h3>
                                 </div>
                                 <div className="f-contact">
                                     <ul>
                                         <li>
                                             <i className="icon fal fa-phone"></i>
-                                            <span>1800-121-3637<br/>+91-7052-101-786</span>
+                                            <span>+256...........<br/>+256.......</span>
                                         </li>
                                         <li>
                                             <i className="icon fal fa-envelope"></i>
@@ -29,7 +29,7 @@ const Main = () => {
                                         </li>
                                         <li>
                                             <i className="icon fal fa-map-marker-check"></i>
-                                            <span>1247/Plot No. 39, 15th Phase,<br/> LHB Colony, Kanpur</span>
+                                            <span>FORTPORTAL<br/> FORTPORTAL, UGANDA</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -44,9 +44,8 @@ const Main = () => {
                                     <ul>                                        
                                         <li><Link to="/">Home</Link></li>
                                         <li><Link to="/about"> About Us</Link></li>
-                                        <li><Link to="/services"> Services </Link></li>
+                                        <li><Link to=""> Services </Link></li>
                                         <li><Link to="/contact"> Contact Us</Link></li>
-                                        <li><Link to="/blog">Blog </Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -89,7 +88,7 @@ const Main = () => {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6 col-md-6">                         
-                           Copyright &copy; Riorelax 2022 . All rights reserved.         
+                           Copyright &copy; IMARA FARM 2023 . All rights reserved.         
                         </div>
                         <div className="col-lg-6 col-md-6 text-right text-xl-right">                       
                            <div className="footer-social">                                    
