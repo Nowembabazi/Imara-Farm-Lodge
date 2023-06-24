@@ -56,8 +56,8 @@ const Main = () => {
                             <div className="row align-items-center">
                                 <div className="col-xl-2 col-lg-2">
                                     <div className="logo">
-                                      <h4 style={{ color: 'white' }}>IMARA FARM LODGE</h4>
-                                        {/* <Link to="/"><img src="assets/img/logos/logo.jpg" alt="logo" /></Link> */}
+                                      {/* <h4 style={{ color: 'white' }}>IMARA FARM LODGE</h4> */}
+                                        <Link to="/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcqs4gZnQLRa0yR7FQRquyIUJE6Aq02IO2cA&usqp=CAU.PNG" alt="logo" /></Link>
                                     </div>
                                 </div>
                                 <div className="col-xl-8 col-lg-8">
