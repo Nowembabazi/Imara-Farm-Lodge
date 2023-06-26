@@ -5,10 +5,8 @@ const Main = () => {
 
     const [mobile, setmobile] = useState(false)
     const [show, setshow] = useState(false)
-    const [show1, setshow1] = useState(false)
-    const [show2, setshow2] = useState(false)
     const [show3, setshow3] = useState(false)
-    const [show4, setshow4] = useState(false)
+
 
     const location = useLocation()
     const path = location.pathname
