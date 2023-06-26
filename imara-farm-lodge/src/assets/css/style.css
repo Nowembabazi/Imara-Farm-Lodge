@@ -40,6 +40,7 @@ CSS Index
  body {
        font-family: 'Roboto', sans-serif;
 	font-size: 15px;
+    width: 100%;
 	font-weight: normal;
 	color: #777;
 	font-style: normal;
@@ -1115,6 +1116,7 @@ text-transform: uppercase;
 /* breadcrumb */
 .breadcrumb-area {
   background-size: cover;
+  min-width: 100%;
   position: relative;
   min-height: 550px;
   background-repeat: no-repeat;
@@ -1124,6 +1126,7 @@ text-transform: uppercase;
 	display: inline-block;
 	-ms-flex-wrap: no-wrap;
 	flex-wrap: unset;
+    background-repeat: no-repeat;
 	padding: 0;
 	margin-bottom: 0;
 	list-style: none;
