@@ -1,13 +1,13 @@
 import { Link } from 'react-router-dom'
 import BGImg from "../../../assets/img/bg/bdrc-bg.jpg";
-import React , { useState , useEffect} from 'react'
+import React , { useState } from 'react'
 import FsLightbox from 'fslightbox-react';
 
 
 const Main = () => {
     const [activeImage , setActiveImage] = useState(1)
 
-    const [images , setImages] = useState([
+    const [images] = useState([
    
         'assets/img/gallery/protfolio-img02.png',
         'assets/img/gallery/protfolio-img03.png',
@@ -22,16 +22,16 @@ const Main = () => {
 	])
 
 
-    const [img, setImg] = useState()
-    const [img1, setImg1] = useState()
-    const [img2, setImg2] = useState()
-    const [img3, setImg3] = useState()
-    const [img4, setImg4] = useState()
-    const [img5, setImg5] = useState()
-    const [img6, setImg6] = useState()
-    const [img7, setImg7] = useState()
-    const [img8, setImg8] = useState()
-    const [img9, setImg9] = useState()
+    const [setImg] = useState()
+    const [setImg1] = useState()
+    const [setImg2] = useState()
+    const [setImg3] = useState()
+    const [setImg4] = useState()
+    const [setImg5] = useState()
+    const [setImg6] = useState()
+    const [setImg7] = useState()
+    const [setImg8] = useState()
+    const [setImg9] = useState()
 
     const [toggler, setToggler] = useState(false);
 
