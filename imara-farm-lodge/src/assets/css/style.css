@@ -1114,15 +1114,15 @@ text-transform: uppercase;
 
 /* breadcrumb */
 .breadcrumb-area {
-background-size: cover;
-position: relative;
-    min-height: 450px;
-    background-repeat: no-repeat;
-    background-color: #000;
+  background-size: cover;
+  position: relative;
+  min-height: 550px;
+  background-repeat: no-repeat;
+  background-color: rgb(53, 50, 50);
 }
 .breadcrumb {
 	display: inline-block;
-	-ms-flex-wrap: wrap;
+	-ms-flex-wrap: no-wrap;
 	flex-wrap: unset;
 	padding: 0;
 	margin-bottom: 0;
@@ -1132,9 +1132,9 @@ position: relative;
 }
 .breadcrumb li {display: inline-block;}
 .breadcrumb li a {
-font-size: 16px;
-color: #fff;
-font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
 }
 .breadcrumb-item + .breadcrumb-item::before {
 	display: inline-block;
@@ -1222,7 +1222,8 @@ font-size: 18px;
   bottom: 100px;
 }
 .slider-bg {
-	min-height: 500px !important;
+	min-height: 700px !important;
+    min-width: 600px;
 	background-position: center bottom;
 	background-size: cover;
 	position: relative;

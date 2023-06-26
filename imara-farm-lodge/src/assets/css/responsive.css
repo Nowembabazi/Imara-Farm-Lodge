@@ -2441,8 +2441,9 @@ margin: 0;
 .breadcrumb-area {
 background-position: 0 0;
 background-color: #fff;
-min-height: 350px;
-padding-top: 60px;
+min-height: 550px;
+padding-top: 24px;
+width: 100%;
 }
 
 .details__content h2 {
