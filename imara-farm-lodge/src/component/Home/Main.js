@@ -2,21 +2,10 @@ import React , { useState } from 'react'
 import { Link } from 'react-router-dom'
 import BGImg from "../../assets/img/slider/slider_bg.png";
 import BGImg1 from "../../assets/img/slider/slider_bg_01.png";
-import BGTest from "../../assets/img/bg/testimonial-bg.png";
 import BGVideo from "../../assets/img/bg/video-bg.png"
 import Slider from "react-slick"
 import FsLightbox from 'fslightbox-react';
-import About from "../../assets/img/bg/an-img-02.png"
-import About1 from "../../assets/img/features/about_img_02.png"
-import About2 from "../../assets/img/features/about_img_03.png"
-import About3 from "../../assets/img/features/signature.png"
 import Hotel from "../../assets/img/bg/an-img-01.png"
-import Hotel1 from "../../assets/img/icon/fe-icon01.png"
-import Hotel2 from "../../assets/img/icon/fe-icon04.png"
-import Hotel3 from "../../assets/img/icon/fe-icon05.png"
-import Hotel4 from "../../assets/img/icon/fe-icon06.png"
-import Hotel5 from "../../assets/img/icon/fe-icon07.png"
-import Hotel6 from "../../assets/img/icon/fe-icon08.png"
 import service1 from "../../assets/img/gallery/room-img01.png"
 import service2 from "../../assets/img/gallery/room-img02.png"
 import service3 from "../../assets/img/gallery/room-img03.png"
@@ -37,10 +26,6 @@ import Aicon from "../../assets/img/testimonial/qt-icon.png"
 import Aicon1 from "../../assets/img/testimonial/review-icon.png"
 import Booking from "../../assets/img/bg/booking-img.png"
 import Play from "../../assets/img/bg/play-button.png"
-import Blog from "../../assets/img/bg/an-img-06.png"
-import Blog1 from "../../assets/img/blog/inner_b1.jpg"
-import Blog2 from "../../assets/img/blog/inner_b2.jpg"
-import Blog3 from "../../assets/img/blog/inner_b3.jpg"
 import Brand1 from "../../assets/img/brand/b-logo1.png"
 import Brand2 from "../../assets/img/brand/b-logo2.png"
 import Brand3 from "../../assets/img/brand/b-logo3.png"
@@ -51,11 +36,10 @@ import Brand5 from "../../assets/img/brand/b-logo5.png"
 const Main = () => {
     const [yShow, setyShow] = useState()
     const [hShow, sethShow] = useState()
-    const [animation, setanimation] = useState()
-
+    const [animation,] = useState()
     const [toggler, setToggler] = useState(false);
     const [activeImage , setActiveImage] = useState(1)
-    const [images , setImages] = useState([
+    const [images ,] = useState([
         'assets/img/gallery/room-img01.png',
         'assets/img/gallery/room-img02.png',
         'assets/img/gallery/room-img03.png',
@@ -990,7 +974,7 @@ const Main = () => {
                     <div className="mfp-content">
                         <div className="mfp-iframe-scaler">
                             <button title="Close (Esc)" type="button" className="mfp-close" onClick={() => setyShow(false)}>×</button>
-                            <iframe className="mfp-iframe" src="//www.youtube.com/embed/gyGsPlt06bo?autoplay=1" frameborder="0" allowFullScreen=""></iframe>
+                            {/* <iframe className="mfp-iframe" src="//www.youtube.com/embed/gyGsPlt06bo?autoplay=1" frameborder="0" allowFullScreen=""></iframe> */}
                         </div>
                     </div>
                     <div className="mfp-preloader">Loading...</div>
@@ -1006,7 +990,7 @@ const Main = () => {
                         <div className="mfp-content">
                             <div className="mfp-iframe-scaler">
                                 <button title="Close (Esc)" type="button" className="mfp-close" onClick={() => sethShow(false)}>×</button>
-                                <iframe className="mfp-iframe" src="//www.youtube.com/embed/gyGsPlt06bo?autoplay=1" frameborder="0" allowFullScreen=""></iframe>
+                                {/* <iframe className="mfp-iframe" src="//www.youtube.com/embed/gyGsPlt06bo?autoplay=1" frameborder="0" allowFullScreen=""></iframe> */}
                             </div>
                         </div>
                         <div className="mfp-preloader">Loading...</div>
