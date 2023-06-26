@@ -871,7 +871,7 @@ const Main = () => {
                             </div>
                             <div className="section-title center-align text-center">
                                 <h2>
-                                 Take A Tour Of Luxuri
+                                 Take A Tour Of your Life
                                 </h2>
                             </div>
                         </div>
