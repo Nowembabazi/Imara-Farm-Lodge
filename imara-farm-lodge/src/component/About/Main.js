@@ -6,7 +6,7 @@ const Main = () => {
   return (
     <>
         <main>
-            <section className="breadcrumb-area d-flex align-items-center" style={{ background : `url(${BGImg})`}}>
+            <section className="single-slider slider-bg d-flex align-items-center" style={{backgroundImage: `url(${BGImg})`,backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center'}}>
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-xl-12 col-lg-12">
