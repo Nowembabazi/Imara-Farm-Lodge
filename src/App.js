@@ -1,6 +1,6 @@
 import { BrowserRouter as Router } from "react-router-dom"
 import Routing from './routes';
-// import './assets/css/bootstrap.min.css'
+import './assets/css/bootstrap.min.css'
 import './assets/css/animate.min.css'
 import './assets/css/magnific-popup.css'
 import './assets/fontawesome/css/all.min.css'
