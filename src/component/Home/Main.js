@@ -215,7 +215,7 @@ const Main = () => {
                            <div className="row justify-content-center align-items-center">
                                 <div className="col-lg-7 col-md-7">
                                     <div className="slider-content s-slider-content mt-80 text-center">
-                                        <h2 data-animation="fadeInUp" data-delay=".4s" style={{animationDelay: "0.4s"}}>Enjoy A Luxury Experience</h2>
+                                        <h2 data-animation="fadeInUp" data-delay=".4s" style={{animationDelay: "0.4s", color:"#482d15"}}>Enjoy A Luxury Experience</h2>
                                         <p data-animation="fadeInUp" data-delay=".6s">.</p>
                                         
                                         <div className="slider-btn mt-30 mb-105">     
@@ -729,6 +729,7 @@ const Main = () => {
                                         <img src={Aicon} alt="img"/>
                                         </div>
                                     </div>
+                                  
                                 <div className="single-testimonial">
                                         <div className="testi-author">
                                             <img src={avatar3} alt="img"/>
@@ -738,6 +739,22 @@ const Main = () => {
                                             </div>
                                         </div>
                                         <div className="review-icon">
+                                            <img src={Aicon1} alt="img"/>
+                                        </div>
+                                        <p>“Phasellus aliquam quis lorem amet dapibus feugiat vitae purus vitae efficitur. Vestibulum sed elit id orci rhoncus ultricies. Morbi vitae semper consequat ipsum semper quam”.</p>
+                                        
+                                        <div className="qt-img">
+                                        <img src={Aicon} alt="img"/>
+                                        </div>
+                                    </div><div className="single-testimonial">
+                                        <div className="testi-author">
+                                            <img src={avatar2} alt="img"/>
+                                            <div className="ta-info">
+                                                <h6>Henry Mugabe</h6>
+                                                <span>Client</span>
+                                            </div>
+                                        </div>
+                                    <div className="review-icon">
                                             <img src={Aicon1} alt="img"/>
                                         </div>
                                         <p>“Phasellus aliquam quis lorem amet dapibus feugiat vitae purus vitae efficitur. Vestibulum sed elit id orci rhoncus ultricies. Morbi vitae semper consequat ipsum semper quam”.</p>
