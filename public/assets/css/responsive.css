@@ -1204,7 +1204,7 @@ box-shadow: 0 0 0 0;
 
 
 /* small mobile :320px. */
-@media (max-width: 810px) {
+@media (max-width: 768px) {
     .header-slidemenu .mean-container a.meanmenu-reveal {
   color: #fff;
   border: 1px solid #fff;

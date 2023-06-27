@@ -195,9 +195,9 @@ const Main = () => {
                             <div className="container">
                                 <div className="row justify-content-center align-items-center">
                                     <div className="col-lg-7 col-md-7">
-                                        <div className="slider-content s-slider-content mt-80 text-center">
-                                            <h2 className={`${animation && "animation" && "fadeInUp"} `} data-animation="fadeInUp" data-delay=".4s" style={{animationDelay: "0.4s"}}>Enjoy A Luxury Experience</h2>
-                                            <p data-animation="fadeInUp" data-delay=".6s"></p>
+                                        <div className="slider-content s-slider-content mt-80 text-center" style={{ backgroundColor: "rgba(0, 0, 0, 0.6)", marginTop: "15px" }}>
+                                            <h2 className={`${animation && "animation" && "fadeInUp"} `} data-animation="fadeInUp" data-delay=".4s" style={{animationDelay: "0.4s", marginTop:"50px"}}>Enjoy A Luxury Experience</h2>
+                                            <p data-animation="fadeInUp" data-delay=".6s"  style={{ fontWeight: "bold", fontSize: "24px"}}>Find a place to call home.</p>
                                             
                                             <div className="slider-btn mt-30 mb-105">     
                                                 <Link to="/contact" className="btn ss-btn active mr-15" data-animation="fadeInLeft" data-delay=".4s">Discover More </Link>
@@ -214,15 +214,14 @@ const Main = () => {
                         <div className="container">
                            <div className="row justify-content-center align-items-center">
                                 <div className="col-lg-7 col-md-7">
-                                    <div className="slider-content s-slider-content mt-80 text-center">
-                                        <h2 data-animation="fadeInUp" data-delay=".4s" style={{animationDelay: "0.4s", color:"#482d15"}}>Enjoy A Luxury Experience</h2>
-                                        <p data-animation="fadeInUp" data-delay=".6s">.</p>
-                                        
-                                        <div className="slider-btn mt-30 mb-105">     
-                                            <Link to="/contact" className="btn ss-btn active mr-15" data-animation="fadeInLeft" data-delay=".4s">Discover More </Link>
-                                            {/* <Link to="#" onClick={() => sethShow(true)}  className="video-i popup-video" data-animation="fadeInUp" data-delay=".8s" style={{animation_delay:" 0.8s"}} tabIndex="0"><i className="fas fa-play"></i> Intro Video</Link> */}
-                                        </div>                
-                                    </div>
+                                 <div className="slider-content s-slider-content mt-80 text-center" style={{ backgroundColor: "rgba(0, 0, 0, 0.6)", marginTop: "15px" }}>
+                                    <h2 data-animation="fadeInUp" data-delay=".4s" style={{ animationDelay: "0.4s", color: "white" }}>Enjoy A Luxury Experience</h2>
+                                    <p data-animation="fadeInUp" data-delay=".6s" style={{ fontWeight: "bold", fontSize: "24px"}}>Find a place to call home.</p>
+                                  <div className="slider-btn mt-30 mb-105">
+                                   <Link to="/contact" className="btn ss-btn active mr-15" data-animation="fadeInLeft" data-delay=".4s">Discover More</Link>
+                                  </div>
+                                 </div>
+
                                 </div>                                
                             </div>
                         </div>
