@@ -746,22 +746,6 @@ const Main = () => {
                                         <div className="qt-img">
                                         <img src={Aicon} alt="img"/>
                                         </div>
-                                    </div><div className="single-testimonial">
-                                        <div className="testi-author">
-                                            <img src={avatar2} alt="img"/>
-                                            <div className="ta-info">
-                                                <h6>Henry Mugabe</h6>
-                                                <span>Client</span>
-                                            </div>
-                                        </div>
-                                    <div className="review-icon">
-                                            <img src={Aicon1} alt="img"/>
-                                        </div>
-                                        <p>“Phasellus aliquam quis lorem amet dapibus feugiat vitae purus vitae efficitur. Vestibulum sed elit id orci rhoncus ultricies. Morbi vitae semper consequat ipsum semper quam”.</p>
-                                        
-                                        <div className="qt-img">
-                                        <img src={Aicon} alt="img"/>
-                                        </div>
                                     </div>
                                 <div className="single-testimonial">
                                      <div className="testi-author">
