@@ -1036,7 +1036,7 @@ position: fixed;
 padding-top: 80px;
 padding-left: 70px;
 z-index: 2;
-background: #482d15;
+background: #644222;
     width: 16.70%;
 }
 .slide-out ul li {
@@ -4348,7 +4348,7 @@ margin-bottom: 15px !important;
 	z-index: 9;
 	cursor: pointer;
 	transition: .3s;
-	width: 84%;
+	width: 94%;
 }
 .testimonial-active i {
     font-size: 30px;
@@ -4405,16 +4405,16 @@ margin-bottom: 15px !important;
 background: #FFFFFF 0% 0% no-repeat padding-box;
 box-shadow: 3px 4px 15px #0000001A;
 border-radius: 10px;
-width: 75%;
+width: 85%;
 float: right;
-padding: 30px 50px 100px 130px;
+padding: 30px 50px 100px 150px;
 margin: 20px;
     color: #525c7b;
 }
 .testimonial-active .slick-slide
 {
 position: relative;
-padding: 25px;
+padding: 30px;
 margin: 0 15px 15px;
 background: #fff;
 box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.08);
