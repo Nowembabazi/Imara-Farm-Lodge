@@ -1226,7 +1226,6 @@ font-size: 18px;
 }
 .slider-bg {
 	min-height: 700px !important;
-    min-width: 600px;
 	background-position: center bottom;
 	background-size: cover;
 	position: relative;
