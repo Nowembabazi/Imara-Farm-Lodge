@@ -30,7 +30,7 @@ const Ourgallery = () => {
 
   return (
     <section className="gallery-page">
-      <h2>Photo Gallery</h2>
+      <h2></h2>
       <div className="gallery-container">
         {images.map((image) => (
           <div key={image.id} className="image-item" onClick={() => openPopup(image)}>
