@@ -75,7 +75,7 @@ const Main = () => {
             <section className="profile fix pt-120">
                 <div className="container-fluid"> 
                     <div className="row">
-                        <div className="col-xl-12 col-lg-12">
+                        {/* <div className="col-xl-12 col-lg-12">
                             <div className="my-masonry text-center mb-50">
                                 <div className="button-group filter-button-group ">
                                     <button className={`${tabMenu.all && "active"}`} onClick={()=>tabActive({all:true})} data-filter="*">All</button>
@@ -86,7 +86,7 @@ const Main = () => {
                                     <button className={`${tabMenu.business && "active"}`} onClick={()=>tabActive({business:true})} data-filter=".business">Event Hall</button>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="col-lg-12">
                             <div className="masonry-gallery-huge">
                                 <div className={`grid col2 ${galleryHeight()}`} style={{position: "relative"}}>
@@ -97,7 +97,7 @@ const Main = () => {
                                                 setToggler(!toggler)
                                                 setActiveImage(1)
                                             }}>
-                                                <img src="assets/img/gallery/protfolio-img02.png" alt="img" className="img" /> 
+                                                <img src="https://pbs.twimg.com/media/FodrWNnWIA4VAlx.jpg" alt="img" className="img" /> 
                                             </figure>
                                         </Link>
                                     </div> 
@@ -209,7 +209,7 @@ const Main = () => {
                                             <figure className="gallery-image" onClick={() =>{
                                                 setActiveImage(1)
                                                  setToggler(!toggler)}}>
-                                                <img src="assets/img/gallery/protfolio-img02.png" alt="img" className="img" /> 
+                                                <img src="https://pbs.twimg.com/media/FodrWNnWIA4VAlx.jpg" alt="img" className="img" /> 
                                             </figure>
                                         </Link>
                                     </div> 
@@ -219,7 +219,7 @@ const Main = () => {
                                             <figure className="gallery-image" onClick={() =>{
                                                 setActiveImage(2)
                                                  setToggler(!toggler)}}>
-                                                <img src="assets/img/gallery/protfolio-img03.png" alt="img" className="img" />     
+                                                <img src="https://pbs.twimg.com/media/FodrWNnWIA4VAlx.jpg" alt="img" className="img" />     
                                             </figure>
                                         </Link>
                                     </div>

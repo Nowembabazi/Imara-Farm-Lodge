@@ -475,7 +475,7 @@ const Main = () => {
                                 <div className="services-content"> 
                                     <div className="day-book">
                                         <ul>
-                                            <li>$600/Night</li>
+                                            <li>$45/Night</li>
                                             <li><Link to="/contact">Book Now</Link></li>
                                         </ul>
                                     </div>
@@ -507,7 +507,7 @@ const Main = () => {
                                 <div className="services-content"> 
                                     <div className="day-book">
                                         <ul>
-                                            <li>$400/Night</li>
+                                            <li>$50/Night</li>
                                             <li><Link to="/contact">Book Now</Link></li>
                                         </ul>
                                     </div>
@@ -539,7 +539,7 @@ const Main = () => {
                                 <div className="services-content"> 
                                     <div className="day-book">
                                         <ul>
-                                            <li>$100/Night</li>
+                                            <li>$40/Night</li>
                                             <li><Link to="/contact">Book Now</Link></li>
                                         </ul>
                                     </div>
@@ -571,7 +571,7 @@ const Main = () => {
                                 <div className="services-content"> 
                                     <div className="day-book">
                                         <ul>
-                                            <li>$300/Night</li>
+                                            <li>$59/Night</li>
                                             <li><Link to="/contact">Book Now</Link></li>
                                         </ul>
                                     </div>
