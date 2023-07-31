@@ -9,7 +9,7 @@ import Hotel from "../../assets/img/bg/an-img-01.png"
 import service1 from "../../assets/img/gallery/room-img01.png"
 import service2 from "../../assets/img/gallery/room-img02.png"
 import service3 from "../../assets/img/gallery/room-img03.png"
-import service4 from "../../assets/img/gallery/room-img04.png"
+// import service4 from "../../assets/img/gallery/room-img04.png"
 import icon1 from "../../assets/img/icon/sve-icon1.png"
 import icon2 from "../../assets/img/icon/sve-icon2.png"
 import icon3 from "../../assets/img/icon/sve-icon3.png"
@@ -457,7 +457,7 @@ const Main = () => {
                             <div className="section-title center-align mb-50 text-center">
                                 <h5>The pleasure of luxury</h5>
                                 <h2>Rooms & Suites</h2>
-                                <p>Proin consectetur non dolor vitae pulvinar. Pellentesque sollicitudin dolor eget neque viverra, sed interdum metus interdum. Cras lobortis pulvinar dolor, sit amet ullamcorper dolor iaculis vel</p>
+                                <p>Visit our suites for your comfort and the comfort of your loved ones. Our prices are the best and friendly.</p>
                             </div>
                         </div>
                     </div>
@@ -558,7 +558,7 @@ const Main = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-4 col-md-6">
+                        {/* <div className="col-xl-4 col-md-6">
                             <div className="single-services mb-30">
                                 <div className="services-thumb">
 									<Link to="#" className="gallery-link popup-image" onClick={() => { 
@@ -589,7 +589,7 @@ const Main = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </Slider>
                 </div>
             </section>
@@ -610,8 +610,8 @@ const Main = () => {
                                  Pearl Of The Fortportal.
                                 </h2>                             
                                 </div>
-                                <p>Vestibulum non ornare nunc. Maecenas a metus in est iaculis pretium. Aliquam ullamcorper nibh lacus, ac suscipit ipsum consequat porttitor.Aenean vehicula ligula eu rhoncus porttitor. Duis vel lacinia quam. Nunc rutrum porta ex, in imperdiet tortor feugiat at.</p>
-                                <p>Cras finibus laoreet felis et hendrerit. Integer ligula lorem, finibus vitae lorem at, egestas consectetur urna. Integer id ultricies elit. Maecenas sodales nibh, quis posuere felis. In commodo mi lectus venenatis metus eget fringilla. Suspendisse varius ante eget.</p>
+                                <p>For Festives and get aways this is a place for you.</p>
+                                <p>Imara located at the heart of Fortportal district is a place thats a must visit for you an your family.</p>
                                 <div className="slider-btn mt-15">                                          
                                     <Link to="/about" className="btn ss-btn smoth-scroll">Discover More</Link>				
                                 </div>
@@ -630,15 +630,15 @@ const Main = () => {
                                 <h5>Best Prices</h5>
                                 <h2>Extra Activities</h2>                               
                             </div>
-                            <p>Proin consectetur non dolor vitae pulvinar. Pellentesque sollicitudin dolor eget neque viverra, sed interdum metus interdum. Cras lobortis pulvinar dolor, sit amet ullamcorper dolor iaculis vel</p>
-                            <p>Cras finibus laoreet felis et hendrerit. Integer ligula lorem, finibus vitae lorem at, egestas consectetur urna. Integer id ultricies elit. Maecenas sodales nibh, quis posuere felis. In commodo mi lectus venenatis metus eget fringilla. Suspendisse varius ante eget.</p>
+                            <p>Here at Imara Farm Lodge we host a variety of activities.</p>
+                            <p>These activities cut across all age groups. some of the activities include farm tours, camp fire, tour around Queen Elizabeth National Park.</p>
                         </div>
                         <div className="col-lg-4 col-md-6">
                             <div className="pricing-box pricing-box2 mb-60">
                                 <div className="pricing-head">  
                                     <h3>Farm Touring</h3>    
                                     <p>Perfect for early-stage startups</p>
-                                    <div className="month">Monthly</div>
+                                    <div className="month">Daily</div>
                                     <div className="price-count">
                                         <h2>$39.99</h2>
                                     </div> 
@@ -646,9 +646,9 @@ const Main = () => {
                                 </div>
                                 <div className="pricing-body mt-20 mb-30 text-left">
                                     <ul>
-                                        <li>Hotel quis justo at lorem</li>
-                                        <li>Fusce sodales, urna et tempus</li>
-                                        <li>Vestibulum blandit lorem quis</li>                                           
+                                        <li>Camp fire</li>
+                                        <li>Cattle walks/grazing</li>
+                                        <li>Nature walks</li>                                           
                                     </ul>
                                 </div>  
                                 <div className="pricing-btn">
@@ -661,7 +661,7 @@ const Main = () => {
                                 <div className="pricing-head">  
                                     <h3>Tour at Queen Elizabeth</h3>    
                                     <p>Perfect for early-stage startups</p>
-                                    <div className="month">Monthly</div>
+                                    <div className="month">Daily</div>
                                     <div className="price-count">
                                         <h2>$59.99</h2>
                                     </div> 
@@ -669,9 +669,9 @@ const Main = () => {
                                 </div>
                                 <div className="pricing-body mt-20 mb-30 text-left">
                                     <ul>
-                                        <li>Hotel quis justo at lorem</li>
-                                        <li>Fusce sodales, urna et tempus</li>
-                                        <li>Vestibulum blandit lorem quis</li> 
+                                        <li>Park rides</li>
+                                        <li>Nature walks</li>
+                                        <li>Boat rides</li> 
                                     </ul>
                                 </div> 
                                 <div className="pricing-btn">
@@ -722,7 +722,7 @@ const Main = () => {
                                     <div className="review-icon">
                                             <img src={Aicon1} alt="img"/>
                                         </div>
-                                        <p>“Phasellus aliquam quis lorem amet dapibus feugiat vitae purus vitae efficitur. Vestibulum sed elit id orci rhoncus ultricies. Morbi vitae semper consequat ipsum semper quam”.</p>
+                                        <p>“You had better vsit it to know it. A very nice experience i had at Imara”.</p>
                                         
                                         <div className="qt-img">
                                         <img src={Aicon} alt="img"/>
@@ -740,7 +740,7 @@ const Main = () => {
                                         <div className="review-icon">
                                             <img src={Aicon1} alt="img"/>
                                         </div>
-                                        <p>“Phasellus aliquam quis lorem amet dapibus feugiat vitae purus vitae efficitur. Vestibulum sed elit id orci rhoncus ultricies. Morbi vitae semper consequat ipsum semper quam”.</p>
+                                        <p>“A home away from home. I had some many good momments”.</p>
                                         
                                         <div className="qt-img">
                                         <img src={Aicon} alt="img"/>
