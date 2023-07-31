@@ -705,7 +705,7 @@ const Main = () => {
                                     <div className="review-icon">
                                         <img src={Aicon1} alt="img"/>
                                      </div>
-                                    <p>“Phasellus aliquam quis lorem amet dapibus feugiat vitae purus vitae efficitur. Vestibulum sed elit id orci rhoncus ultricies. Morbi vitae semper consequat ipsum semper quam”.</p>
+                                    <p>“An experience like no other. Good stuff”.</p>
                                     
                                     <div className="qt-img">
                                     <img src={Aicon} alt="img"/>
@@ -757,7 +757,7 @@ const Main = () => {
                                    <div className="review-icon">
                                         <img src={Aicon1} alt="img"/>
                                      </div>
-                                      <p>“Phasellus aliquam quis lorem amet dapibus feugiat vitae purus vitae efficitur. Vestibulum sed elit id orci rhoncus ultricies. Morbi vitae semper consequat ipsum semper quam”.</p>
+                                      <p>“I had a nice experience at Imara the meals, the hospitality, the breeze. I usually will have a second and third visit”.</p>
                                     
                                     <div className="qt-img">
                                     <img src={Aicon} alt="img"/>
