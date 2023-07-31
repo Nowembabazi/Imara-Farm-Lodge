@@ -479,8 +479,8 @@ const Main = () => {
                                             <li><Link to="/contact">Book Now</Link></li>
                                         </ul>
                                     </div>
-                                    <h4><Link to="/room-details">classNameic Balcony Room</Link></h4>    
-                                    <p>Aenean vehicula ligula eu rhoncus porttitor. Duis vel lacinia quam. Nunc rutrum porta place ullam ipsum. Morbi imperdiet, orci et dapibus.</p>
+                                    <h4><Link to="/room-details">Double Room</Link></h4>    
+                                    <p> Double room for two comes with breakfast.</p>
                                     <div className="icon">
                                         <ul>
                                             <li><img src={icon1} alt="img"/></li>
@@ -512,7 +512,7 @@ const Main = () => {
                                         </ul>
                                     </div>
                                     <h4><Link to="/room-details">Superior Double Room</Link></h4>    
-                                    <p>Aenean vehicula ligula eu rhoncus porttitor. Duis vel lacinia quam. Nunc rutrum porta ex, in imperdiet tortor feugiat at.</p>
+                                    <p> For families on vacations. It comes with breakfast.</p>
                                     <div className="icon">
                                         <ul>
                                             <li><img src={icon1} alt="img"/></li>
@@ -544,7 +544,7 @@ const Main = () => {
                                         </ul>
                                     </div>
                                     <h4><Link to="/room-details">Super Balcony Double Room</Link></h4>    
-                                    <p>Aenean vehicula ligula eu rhoncus porttitor. Duis vel lacinia quam. Nunc rutrum porta place ullam ipsum. Morbi imperdiet, orci et dapibus.</p>
+                                    <p>For couples also comes with breakfast.</p>
                                     <div className="icon">
                                         <ul>
                                             <li><img src={icon1} alt="img"/></li>

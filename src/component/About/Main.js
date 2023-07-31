@@ -45,8 +45,8 @@ const Main = () => {
                                     <h5>About Us</h5>
                                     <h2>Most Safe & Rated Hotel In UGANDA.</h2>                                   
                                 </div>
-                                <p>Morbi tortor urna, placerat vel arcu quis, fringilla egestas neque. Morbi sit amet porta erat, quis rutrum risus. Vivamus et gravida nibh, quis posuere felis. In commodo mi lectus, Integer ligula lorem, finibus vitae lorem vitae tincidunt dolor consequat quis.</p>
-                                <p>Cras finibus laoreet felis et hendrerit. Integer ligula lorem, finibus vitae lorem at, egestas consectetur urna. Integer id ultricies elit. Maecenas sodales nibh, quis posuere felis. In commodo mi lectus venenatis metus eget fringilla. Suspendisse varius ante eget lorem tempus blandit. Aenean eu vulputate lorem, quis auctor lectus.</p>
+                                <p>Imara Farm Lodge-Fort Portal, Fort Portal. 502 likes. We are Farm with cottages located in Western Uganda, giving you an authentic experience of a typical.</p>
+                                <p>A scenic Imara with tastefully decorated cottages...you need to be here.</p>
                                 <div className="about-content3 mt-30">
                                     <div className="row justify-content-center align-items-center">
                                         <div className="col-md-12">
